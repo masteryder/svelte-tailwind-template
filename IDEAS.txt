@@ -1,0 +1,1 @@
+Have my head somewhere on the page header. Make my eyes follow the mouse. Make a light mode button (dark mode by default), when clicked I squint
