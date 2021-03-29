@@ -1,5 +1,4 @@
-# João Filipe Ventura Coelho's Portfolio
-Created with Svelte and Tailwind
+# A Svelte and Tailwind TypeScript template for your projects
 
 ## Get started
 
