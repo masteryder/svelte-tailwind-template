@@ -1,33 +1,18 @@
 <script lang="ts">
   import Tailwind from "./components/0-quarks/Tailwind.svelte";
-	let name: String = "João";
+	export let name: String;
 </script>
 
 <Tailwind />
 
-<main>
-	<div class="bg-gray-200 px-4 py-2 rounded">Hello {name}!</div>
+<main class="text-center p-4 my-0	mx-auto max-w-lg">
+	<div class="bg-gray-200 px-4 py-2 rounded text-xl">Hello {name}!</div>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<p>Get started with <a href="https://tailwindcss.com/docs">Tailwindcss</a></p>
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
+	a {
+		@apply text-highlight;
 	}
 </style>
